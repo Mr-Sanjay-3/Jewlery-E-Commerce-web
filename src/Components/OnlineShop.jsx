@@ -13,8 +13,7 @@ import TanishqShop from '../assets/images/tanishq-chennai.jpg'
 
 import RingSandi from '../assets/images/RingSandi.jpg'
 import RingWoman from '../assets/images/RingSandiS.png'
-
-import WhpShop from '../assets/images/whpShop.jpg'
+import WhpShop from '../assets/images/WhShop.jpg'
 import WhpWoman from '../assets/images/whpS.png'
 
 import EtsyWorld from '../assets/images/EtsyWorld.jpg'

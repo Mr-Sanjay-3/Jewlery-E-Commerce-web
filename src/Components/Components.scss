@@ -1,0 +1,211 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #dad7d7;
+
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.Container {
+  width: 100%;
+  padding: 0;
+}
+
+.contentsitems {
+  text-align: center;
+  overflow: hidden;
+}
+
+.itemsheadimg {
+  width: 100%;
+  height: 40vh; 
+  object-fit: cover;
+  transition: transform 0.4s ease;
+
+}
+.itemsheadimg:hover {
+ transform: scale(1.05);
+}
+h1 {
+  font-family: fantasy;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.Collections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.CollectionItemWrapper {
+  width: 100%; 
+  text-align: center;
+  margin: 10px;
+  overflow: hidden; 
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+.CollectionItemWrapper:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  opacity: 60%;
+}
+.CollectionItemWrapper img {
+   width: 100%;
+  height:20dvh; 
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+  display: block;
+}
+.CollectionItemWrapper:hover img {
+  transform: scale(1.05);
+}
+
+.Description {
+  padding: 2px;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.Date {
+  font-size: 13px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+  .CollectionItemWrapper {
+    width: calc(100% - 5px);
+  }
+  .CollectionItemWrapper img {
+    height: 10vh; 
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .CollectionItemWrapper {
+    width: calc(33.333% - 13.33px);
+  }
+  .CollectionItemWrapper img {
+    height: 20vh; 
+  }
+}
+/* Home.css */
+
+.Best-Sellers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+  transition: transform 3s ease;
+
+}
+
+.Best-Sellers .card {
+  
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+}
+
+.Best-Sellers .card img {
+
+  max-width: 100%;
+  height: 20dvh;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.Best-Sellers h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.card h4, p{
+  margin-top: 20px; 
+  padding: 6px;
+
+}.btn{
+  text-decoration: none;
+  padding:5px;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 5px;
+}
+.card {
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.concept{
+    
+  width: 100%;
+
+}
+.ConceptP{
+  width: 70%;
+  height: 25dvh;
+  justify-content: center;
+  align-items: center;
+  margin-left:  15%;
+   padding: 2px solid hsl(0, 0%, 80%);
+   box-shadow: #000000;
+   border-radius: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+.Shop{
+  width: 100%;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+
+}
+.TShop{
+  width: 50%;
+  height: 25dvh;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5%;
+   
+
+  &:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+}
+.Contact{
+  width: 100%;
+  height: 10dvh;
+text-align: center;
+padding: 20px;
+margin-top: 20px;
+justify-content: space-between;
+
+}

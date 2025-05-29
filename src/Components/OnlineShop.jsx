@@ -16,7 +16,7 @@ import RingWoman from '../assets/images/RingSandiS.png'
 import WhpShop from '../assets/images/WhShop.jpg'
 import WhpWoman from '../assets/images/whpwomen.png'
 
-import EtsyWorld from '../assets/images/EtsyWorld.jpg'
+import EtsyWorld from '../assets/images/etsyWorld.jpg'
 import EtsyHandMade from '../assets/images/EtsyGlobal.jpg'
 
 

@@ -8,7 +8,7 @@ import Contact from '../assets/svgs/contact.svg'
 import Location from '../assets/svgs/location.svg'
 import GlobalLocation  from '../assets/svgs/globallocation.svg'
 
-import Tanishq from '../assets/images/tanishqN.png'
+import Tanishq from '../assets/images/tanishqn1.png'
 import TanishqShop from '../assets/images/tanishq-chennai.jpg'
 
 import RingSandi from '../assets/images/RingSandi.jpg'
@@ -28,6 +28,7 @@ export const OnlineShop = () => {
     <h1
     style={{
       justifyContent:'center',
+      color:'#95a5a6',
       textAlign:'center',
       marginTop:'2px'
     }}>ONLINE SHOP</h1>
@@ -83,7 +84,7 @@ export const OnlineShop = () => {
                }}
              >
              <div className="shop-dis">
-             <img src={Tanishq} alt="Human" />
+             <img src={Tanishq} alt="Human" width={'200px'} />
              <p style={{textAlign:'justify'}}>
              Tanishq is a well-known jewellery brand in India.
               They are known for their high-quality and stylish jewellery.

@@ -10,13 +10,15 @@ const Home = React.lazy(() => import('./Components/Home'));
 const About = React.lazy(() => import('./Components/About'));
 const Collection = React.lazy(() => import('./Components/Collections'));
 const OnlineShop = React.lazy(() => import ('./Components/OnlineShop'))
+//Collections Pages 
 const Arkadia = React.lazy(() => import('./Collections/Arkadia'));
 const Everest = React.lazy(() => import('./Collections/Everest'));
 const Jungle  = React.lazy(() => import('./Collections/Jungle'));
 const Thaj = React.lazy(() => import('./Collections/Thaj'));
 const KingDom = React.lazy(() => import('./Collections/KingDom'));
 const Valcano = React.lazy(() => import('./Collections/Valcano'));
-
+// c
+const ThanishqRead = React.lazy(()=>import ('./Components/ThanishqRead'));
 export const App = () => {
   return (
     <Suspense fallback={<Loading />}>
@@ -31,6 +33,8 @@ export const App = () => {
         <Route path='/collections/everest' element={<Everest />} />
         <Route path='/collections/thaj' element={<Thaj />} />
         <Route path='/collections/valcano' element={<Valcano />} />
+        
+        <Route path='/shop/thanishq' element ={<ThanishqRead />} />
       
 
       </Routes>

@@ -1,3 +1,4 @@
+
 import { delay, motion}  from 'framer-motion'
 // import React, { lazy} from 'react';
 import Navbar from '../SubComponents/Navbar';
@@ -209,5 +210,3 @@ transition ={{
 };
 
 export default Home;
-
-
